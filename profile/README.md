@@ -5,19 +5,19 @@
 **Open Commissioning** is open source project for virtual commissioning.
 The goal is to provide an open platform for low level virtual commissioning.
 
-Here's why:
-+ Collaborate and use Knowledge-Sharing Culture
-+ Develop state-of-the-art solution for virtual commissioning
-+ Avoid vendor lock
-
-Commissioning is based on [Unity](https://unity.com/) and [TwinCAT](https://www.beckhoff.com/en-en/products/automation/twincat/). 
+Project is based on [Unity](https://unity.com/) and [TwinCAT](https://www.beckhoff.com/en-en/products/automation/twincat/). 
 From one side Unity provides modern physics engine with 3D editor which allows to create interactive 3d environment, from other side TwinCAT is used as simulation unit that is able to emulate bus systems and behaviour models of actuators and sensors close to real time.
 
 On the basis of this technology chain, it is possible to realise a Soft-/Hardware-in-the-loop simulation with PLC, with the main focus on achieving no code difference between virtual and real commissioning.
 
+Here's why:
+   * Develop and use state-of-the-art open virtual commissioning solution
+   * Collaborate and use Knowledge-Sharing Culture
+   * Avoid vendor lock and boost your automation workflow
+
 # Description
 ## 1. Packages
-The Open Commissioning has main parts: 
+The Open Commissioning has three main parts: 
 1. [Unity Package](https://github.com/OpenCommissioning/Unity_Core): Scripts, Tools and Asset for creating virtual model and environment within Unity Editor.
 2. [TwinCAT Library](https://github.com/OpenCommissioning/TC_Standard): Pre-built behavior models for actors, sensors and various industrial devices.
 3. [Assistant](https://github.com/OpenCommissioning/Assistant): This application orchestrates the Unity and TwinCAT sides, and provides an interface for connecting to external industrial systems.
@@ -26,17 +26,15 @@ The Open Commissioning has main parts:
 > You can find more detailed information in the corresponding package sources.
 
 ## 2. Concept
-The simulation is divided into two main parts, each of which runs in an environment best suited to the respective tasks:
- * **Unity Project**: 
-In Unity project with the help of the Open Commissioning package the virtual machine is created. 
-The kinematic chain and calculation of the physics is achieved with functions provided by Unity Engine and PhysX.
- * **TwinCAT Project**: 
-On the TwinCAT side, the behavioural function blocks for each actuator and sensor of the virtual machine are mapped and called in a PLC task. 
-The cycle time of 1 ms on an isolated core enables real-time simulation with coupled controller and provides a stable environment for Soft-/Hardware-in-the-loop simulation.
+The virtual commissioning model consists of the following parts:
+ * **Unity Project**:
+   The geometry, kinematics and material flow of the machine are replicated in an unity scene and parameterised with suitable sensors and actuators in order to reproduce the behaviour of the real machine.
+ * **TwinCAT PLC Project**:
+All actuators, sensors and other industrial devices are listed in the TwinCAT project according to the hierarchical structure from Unity Scene and linked to control signals.
+The TwinCAT Project will run on isolated cores with 1 ms cyclic time and provides a stable environment for Soft-/Hardware-in-the-loop simulation.
  * **Assistant**: The Assistant is used as an engineering tool and enables the use of various features such as project generation, configuration scanning, etc., which can be extended with the SDK.
 In addition, the Assistant handles communication between TwinCAT, Unity and third-party interfaces and serves as a bridge for data connectivity.
 
-The abstract structure of the system is shown in the following image.
 ![OS_System](./images/OC_Base_dark.png#gh-dark-mode-only)
 ![OS_System](./images/OC_Base_light.png#gh-light-mode-only)
 
@@ -78,7 +76,7 @@ Open Commissioning components are distributed under the BSD 3-Clause License.
 > This package contains third-party software components that are subject to the licence(s) specified in the individual subsections of the open commissioning.
 
 # Contact
-For help and support, please contact us on [Discord](https://discordlink), GitHub Discussions or by [email](https://spiratec.com/contact/opencommissoning).
+For help and support, please contact us on [Discord](https://discordlink), GitHub Discussions or by [email](opencommissoning@spiratec.com).
 
 
 

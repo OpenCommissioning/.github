@@ -2,11 +2,11 @@
 
 ![OC_Demo.png](images%2FOC_Demo.png)
 
-**Open Commissioning** is open source project for virtual commissioning.
-The goal is to provide an open platform for low level virtual commissioning.
+**Open Commissioning** is an open source framework for virtual commissioning.
+The goal is to provide an open platform for test and commission PLC code using a virtual model.
 
 Project is based on [Unity](https://unity.com/) and [TwinCAT](https://www.beckhoff.com/en-en/products/automation/twincat/). 
-From one side Unity provides modern physics engine with 3D editor which allows to create interactive 3d environment, from other side TwinCAT is used as simulation unit that is able to emulate bus systems and behaviour models of actuators and sensors close to real time.
+From one side Unity provides modern 3D Editor with physics engine which allows to create interactive 3D environment, from other side TwinCAT is used as simulation unit that is able to emulate bus systems and behaviour models of actuators and sensors close to real time.
 
 On the basis of this technology chain, it is possible to realise a Soft-/Hardware-in-the-loop simulation with PLC, with the main focus on achieving no code difference between virtual and real commissioning.
 
@@ -18,20 +18,20 @@ Here's why:
 # Description
 ## 1. Packages
 The Open Commissioning has three main parts: 
-1. [Unity Package](https://github.com/OpenCommissioning/Unity_Core): Scripts, Tools and Asset for creating virtual model and environment within Unity Editor.
+1. [Unity Package](https://github.com/OpenCommissioning/Unity_Core): Scripts, Tools and Asset for creating virtual model and an environment within Unity Editor.
 2. [TwinCAT Library](https://github.com/OpenCommissioning/TC_Standard): Pre-built behavior models for actors, sensors and various industrial devices.
-3. [Assistant](https://github.com/OpenCommissioning/Assistant): This application orchestrates the Unity and TwinCAT sides, and provides an interface for connecting to external industrial systems.
+3. [Assistant](https://github.com/OpenCommissioning/Assistant): Application orchestrates the Unity and TwinCAT sides, and provides an interface for connecting to external industrial systems.
 
 > [!NOTE]
-> You can find more detailed information in the corresponding package sources.
+> More detailed information can be found in the corresponding sub repositories
 
 ## 2. Concept
-The virtual commissioning model consists of the following parts:
+The virtual commissioning project consists of the following parts:
  * **Unity Project**:
-   The geometry, kinematics and material flow of the machine are replicated in an unity scene and parameterised with suitable sensors and actuators in order to reproduce the behaviour of the real machine.
+   The geometry, kinematics and material flow of the machine are replicated in a unity scene and parameterised with suitable sensors and actuators in order to reproduce the behaviour of the real machine.
  * **TwinCAT PLC Project**:
 All actuators, sensors and other industrial devices are listed in the TwinCAT project according to the hierarchical structure from Unity Scene and linked to control signals.
-The TwinCAT Project will run on isolated cores with 1 ms cyclic time and provides a stable environment for Soft-/Hardware-in-the-loop simulation.
+The TwinCAT Project will run on isolated cores with 1 ms cycle time and provides a stable environment for Soft-/Hardware-in-the-loop simulation.
  * **Assistant**: The Assistant is used as an engineering tool and enables the use of various features such as project generation, configuration scanning, etc., which can be extended with the SDK.
 In addition, the Assistant handles communication between TwinCAT, Unity and third-party interfaces and serves as a bridge for data connectivity.
 
@@ -48,7 +48,7 @@ We extend our gratitude to all our numerous contributors who create plugins, ass
 Refine is a community-driven project, and your contributions continually improve it.
 
 > [!NOTE]  
-> Further information on the contribution can be found in the individual subsections of the open commissioning.
+> Further information on the contribution can be found in the corresponding sub repositories
 
 # Credits
 This open source project is initiated and supported by [SpiraTec AG](https://www.spiratec.com/en/).
@@ -71,9 +71,9 @@ This open source project is initiated and supported by [SpiraTec AG](https://www
    * [TcPnScanner](https://github.com/TcHaxx/TcPnScanner) - Tool written in C#/.NET, that scans for Profinet packets on a network interface
 
 # License
-Open Commissioning components are distributed under the BSD 3-Clause License.
+Open Commissioning framework is distributed under the BSD 3-Clause License.
 > [!NOTE]  
-> This package contains third-party software components that are subject to the licence(s) specified in the individual subsections of the open commissioning.
+> This package contains third-party software components that are subject to the licence(s) specified in the corresponding sub repositories
 
 # Contact
 For help and support, please contact us on [Discord](https://discordlink), GitHub Discussions or by [email](opencommissoning@spiratec.com).

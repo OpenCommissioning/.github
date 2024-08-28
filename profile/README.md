@@ -56,19 +56,20 @@ This open source project is initiated and supported by [SpiraTec AG](https://www
 :handshake: Credits for third-party software components and developers:
 
 1. Used in Unity Package:
-   * [Beckhoff ADS](https://github.com/Beckhoff/ADS) - Beckhoff protocol to communicate with TwinCAT devices
+   * [Beckhoff ADS](https://www.nuget.org/packages/Beckhoff.TwinCAT.Ads) - Beckhoff protocol to communicate with TwinCAT devices
    * [NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes/) - NaughtyAttributes is an extension for the Unity Inspector
    * [UniTask](https://github.com/Cysharp/UniTask/) - Provides an efficient allocation free async/await integration for Unity
    * [ookii-dialogs-winforms](https://github.com/ookii-dialogs/ookii-dialogs-winforms/) - A class library for Windows Forms applications providing several common dialogs
    * [ShellFileDialogs](https://github.com/daiplusplus/ShellFileDialogs/) - File Open, File Save and Folder Browser dialogs
 
 2. Used in TwinCAT Library:
-   * [Beckhoff ADS](https://github.com/Beckhoff/ADS) - Beckhoff protocol to communicate with TwinCAT devices
+   * [Beckhoff ADS](https://www.nuget.org/packages/Beckhoff.TwinCAT.Ads) - Beckhoff protocol to communicate with TwinCAT devices
    * [TcUnit](https://github.com/tcunit/TcUnit) - TwinCAT unit testing framework
 
 3. Used in Assistant:
-   * [Beckhoff ADS](https://github.com/Beckhoff/ADS) - Beckhoff protocol to communicate with TwinCAT devices
    * [TcPnScanner](https://github.com/TcHaxx/TcPnScanner) - Tool written in C#/.NET, that scans for Profinet packets on a network interface
+   * [Beckhoff ADS](https://www.nuget.org/packages/Beckhoff.TwinCAT.Ads) - Beckhoff protocol to communicate with TwinCAT devices
+   * [TCatSysManagerLib](https://www.nuget.org/packages/TCatSysManagerLib) - TwinCAT System Manager Library
 
 # License
 Open Commissioning framework is distributed under the BSD 3-Clause License.

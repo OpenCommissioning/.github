@@ -54,6 +54,10 @@ Refine is a community-driven project, and your contributions continually improve
 # Credits
 This open source project is initiated and supported by [SpiraTec AG](https://www.spiratec.com/en/).
 
+<img src="./images/spira_logo_light.png#gh-light-mode-only" width="200"/>
+<img src="./images/spira_logo_dark.png#gh-dark-mode-only" width="200"/>
+
+
 :handshake: Credits for third-party software components and developers:
 
 1. Used in Unity Package:

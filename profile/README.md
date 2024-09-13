@@ -46,7 +46,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 We extend our gratitude to all our numerous contributors who create plugins, assist with issues and pull requests, and respond to questions in GitHub Discussions.
 
-Refine is a community-driven project, and your contributions continually improve it.
+Open Commissioning is a community-driven project, and your contributions continually improve it.
 
 > [!NOTE]  
 > Further information about contributing can be found in the corresponding repositories

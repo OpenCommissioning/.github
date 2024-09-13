@@ -19,9 +19,9 @@ Here are the reasons and goals of this project:
 # Description
 ## 1. Packages
 The Open Commissioning has three main parts: 
-1. [Unity Package](https://github.com/OpenCommissioning/Unity_Core): Scripts, Tools and Assets for creating virtual models and an environment within the Unity Editor.
-2. [TwinCAT Library](https://github.com/OpenCommissioning/TC_Standard): Pre-built behavior models for actors, sensors and various industrial devices.
-3. [Assistant](https://github.com/OpenCommissioning/Assistant): Application that orchestrates the parts of the model running in Unity and TwinCAT, and provides an interface for connecting the model to external industrial systems.
+1. [Unity Package](https://github.com/OpenCommissioning/OC_Unity_Core): Scripts, Tools and Assets for creating virtual models and an environment within the Unity Editor.
+2. [TwinCAT Library](https://github.com/OpenCommissioning/OC_TwinCAT_Core): Pre-built behavior models for actors, sensors and various industrial devices.
+3. [Assistant](https://github.com/OpenCommissioning/OC_Assistant): Application that orchestrates the parts of the model running in Unity and TwinCAT, and provides an interface for connecting the model to external industrial systems.
 
 > [!NOTE]
 > More detailed information about those parts can be found in their repositories

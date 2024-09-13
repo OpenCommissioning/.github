@@ -36,8 +36,8 @@ The TwinCAT Project will run on isolated cores with 1 ms cycle time and provides
  * **Assistant**: The Assistant application is used as an engineering tool and features various functions such as project generation, configuration scanning, etc., which can be extended using a SDK.
 In addition, the Assistant handles communication between TwinCAT, Unity and third-party interfaces and serves as a bridge for data connectivity.
 
-![OS_System](./images/OC_Base_dark.png#gh-dark-mode-only)
-![OS_System](./images/OC_Base_light.png#gh-light-mode-only)
+![OS_System](./images/OC_Overview_dark.png#gh-dark-mode-only)
+![OS_System](./images/OC_Overview_light.png#gh-light-mode-only)
 
 # Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.

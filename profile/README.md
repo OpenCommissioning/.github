@@ -84,7 +84,7 @@ Open Commissioning Project is distributed under the BSD 3-Clause License.
 > This package contains third-party software components that are subject to the licence(s) specified in their repositories
 
 # Contact
-For help and support, please contact us in GitHub Discussions or by [email](opencommissoning@spiratec.com).
+For help and support, please contact us in GitHub Discussions or by `opencommissoning@spiratec.com`.
 
 
 

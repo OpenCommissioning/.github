@@ -1,6 +1,6 @@
 # Welcome to Open Commissioning
 
-![OC_Demo.png](images%2FOC_Demo.png)
+![OC_Demo.png](images%2FOC_Demo.gif)
 
 **Open Commissioning** is an open source framework for virtual commissioning.
 The goal is to provide an open platform for testing and commissioning of PLC code using a virtual model.

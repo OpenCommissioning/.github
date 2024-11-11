@@ -53,14 +53,7 @@ Open Commissioning is a community-driven project, and your contributions continu
 > [!NOTE]  
 > Further information about contributing can be found in the corresponding repositories
 
-# Credits
-This open source project is initiated and supported by [SpiraTec AG](https://www.spiratec.com/en/).
-
-<img src="./images/spira_logo_light.png#gh-light-mode-only" width="200"/>
-<img src="./images/spira_logo_dark.png#gh-dark-mode-only" width="200"/>
-
-
-:handshake: Credits for third-party software components and developers:
+# Credits for third-party software components and developers :handshake:
 
 1. Used in Unity Package:
    * [Beckhoff ADS](https://www.nuget.org/packages/Beckhoff.TwinCAT.Ads) - Beckhoff protocol to communicate with TwinCAT devices
@@ -82,6 +75,14 @@ This open source project is initiated and supported by [SpiraTec AG](https://www
 Open Commissioning Project is distributed under the BSD 3-Clause License.
 > [!NOTE]  
 > This package contains third-party software components that are subject to the licence(s) specified in their repositories
+
+# Initiative
+This open source project is initiated and supported by [SpiraTec AG](https://www.spiratec.com/en/).
+
+<img src="./images/spira_logo_light.png#gh-light-mode-only" width="200"/>
+<img src="./images/spira_logo_dark.png#gh-dark-mode-only" width="200"/>
+
+_**SpiraTec AG** is a globally active company for industrial engineering and high-tech solutions for digital transformation in the process industry, specializing in engineering, robotics, automation, and industrial IT systems. With a team across 40+ locations, we deliver end-to-end solutions, from consulting and system engineering to commissioning and optimization._
 
 # Contact
 For help and support, please contact us in GitHub Discussions or by `opencommissioning@spiratec.com`.

@@ -11,33 +11,29 @@ These two platforms are connected to form the model for virtual commissioning
 
 On the basis of this technology chain, it is possible to realize a Soft-/Hardware-in-the-loop simulation with a PLC, focusing on achieving no code difference between virtual and real commissioning.
 
-Here are the reasons and goals of this project:
-   * Develop and use a state-of-the-art open virtual commissioning solution
-   * Collaborate and use knowledge-sharing culture
-   * Avoid vendor lock and boost your automation workflow
+# Why?
+The project is initiated by a dedicated team with 15+ years of experience in automation projects and virtual commissioning across automotive, logistics and other industries. Having worked extensively with various tools and vendor-locked solutions, it is now the time to establish an open framework for virtual commissioning.
 
-# Description
-## 1. Packages
-The Open Commissioning has three main parts: 
-1. [Unity Package](https://github.com/OpenCommissioning/OC_Unity_Core): Scripts, Tools and Assets for creating virtual models and an environment within the Unity Editor.
-2. [TwinCAT Library](https://github.com/OpenCommissioning/OC_TwinCAT_Core): Pre-built behavior models for actors, sensors and various industrial devices.
-3. [Assistant](https://github.com/OpenCommissioning/OC_Assistant): Application that orchestrates the parts of the model running in Unity and TwinCAT, and provides an interface for connecting the model to external industrial systems.
+The key objectives are:
 
-> [!NOTE]
-> More detailed information about those parts can be found in their repositories
+* Developing and using a state-of-the-art open virtual commissioning solution
+* Collaborating and using knowledge-sharing culture
+* Avoiding vendor lock and boosting your automation workflow
 
-## 2. Concept
-The virtual commissioning project consists of the following parts:
- * **Unity Project**:
-   The geometry, kinematics and material flow of the machine are replicated in a unity scene and parameterised with suitable sensors and actuators in order to reproduce the behaviour of the real machine.
- * **TwinCAT PLC Project**:
-All actuators, sensors and other industrial devices are listed in the TwinCAT project according to the hierarchical structure from the Unity Scene and linked to control signals.
-The TwinCAT Project will run on isolated cores with 1 ms cycle time and provides a stable environment for Soft-/Hardware-in-the-loop simulations.
- * **Assistant**: The Assistant application is used as an engineering tool and features various functions such as project generation, configuration scanning, etc., which can be extended using a SDK.
-In addition, the Assistant handles communication between TwinCAT, Unity and third-party interfaces and serves as a bridge for data connectivity.
+# Concept
+The Open Commissioning framework is built on three core technologies:
+ * **[Unity Package](https://github.com/OpenCommissioning/OC_Unity_Core)**:
+   Geometry, kinematics and product transport are replicated in a Unity scene with suitable sensors and actuators in order to reproduce the mechanic behaviour of a real machine.
+ * **[TwinCAT Library](https://github.com/OpenCommissioning/OC_TwinCAT_Core)**:
+All actuators, sensors and other industrial devices are listed in the TwinCAT project according to the hierarchical structure from the Unity scene and linked to control signals.
+The TwinCAT Project can run on isolated cores with 1 ms cycle time and provides a stable environment for Soft-/Hardware-in-the-loop simulations.
+ * **[Assistant Application](https://github.com/OpenCommissioning/OC_Assistant)**: The Assistant application is used as an engineering tool and features various functions such as project generation and configuration scanning. It also handles communication between TwinCAT and third-party interfaces and serves as a bridge for data connectivity, which can be extended via plugins.
 
 ![OS_System](./images/OC_Overview_dark.png#gh-dark-mode-only)
 ![OS_System](./images/OC_Overview_light.png#gh-light-mode-only)
+
+> [!NOTE]
+> More detailed information can be found in the corresponding repositories.
 
 # Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
@@ -51,7 +47,7 @@ Check our [contribution guide](CONTRIBUTING.md).
 Open Commissioning is a community-driven project, and your contributions continually improve it.
 
 > [!NOTE]  
-> Further information about contributing can be found in the corresponding repositories
+> Further information about contributing can be found in the corresponding repositories.
 
 # Credits for third-party software components and developers :handshake:
 
@@ -74,7 +70,7 @@ Open Commissioning is a community-driven project, and your contributions continu
 # License
 Open Commissioning Project is distributed under the BSD 3-Clause License.
 > [!NOTE]  
-> This package contains third-party software components that are subject to the licence(s) specified in their repositories
+> This package contains third-party software components that are subject to the licence(s) specified in their repositories.
 
 # Initiative
 This open source project is initiated and supported by [SpiraTec AG](https://www.spiratec.com/en/).
@@ -85,11 +81,8 @@ This open source project is initiated and supported by [SpiraTec AG](https://www
 _**SpiraTec AG** is a globally active company for industrial engineering and high-tech solutions for digital transformation in the process industry, specializing in engineering, robotics, automation, and industrial IT systems. With a team across 40+ locations, we deliver end-to-end solutions, from consulting and system engineering to commissioning and optimization._
 
 # Contact
-For help and support, please contact us in GitHub Discussions or by `opencommissioning@spiratec.com`.
+- **Public Discussions**:  
+  For general questions, feedback, or public topics, feel free to start a discussion in the [Discussions](https://github.com/orgs/OpenCommissioning/discussions) section
 
-
-
-
-
-
-
+- **Personal Support & Project Enquiries**:  
+  For personal assistance, support, or project-related enquiries, please mail to  [opencommissioning@spiratec.com](mailto:opencommissioning@spiratec.com)

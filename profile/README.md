@@ -59,7 +59,6 @@ Open Commissioning is a community-driven project, and your contributions continu
    * [ShellFileDialogs](https://github.com/daiplusplus/ShellFileDialogs/) - File Open, File Save and Folder Browser dialogs
 
 2. Used in TwinCAT Library:
-   * [Beckhoff ADS](https://www.nuget.org/packages/Beckhoff.TwinCAT.Ads) - Beckhoff protocol to communicate with TwinCAT devices
    * [TcUnit](https://github.com/tcunit/TcUnit) - TwinCAT unit testing framework
 
 3. Used in Assistant:
